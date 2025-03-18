@@ -1,0 +1,1 @@
+const SECONDS_IN_A_MINUTE: u32 = 60;
