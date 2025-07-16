@@ -18,7 +18,9 @@ fn main() {
     println!("{:?}", vec);
 
     let mut vect = Vec::<i32>::with_capacity(2);
-    println!("{}", vect.capacity())
+    println!("{}", vect.capacity());
+
+    let v: Vec<i32> = (0..5).collect();
 }
 
 
