@@ -1,9 +1,9 @@
-struct Text<'a> {
+struct Note<'a> {
     content: &'a str,
 }
 
 fn main() {
-    let message = String::from("Hello, Rust!");
-    let text = Text { content: &message };
-    println!("Content: {}", text.content);
+    let msg = String::from("hello");
+    let note = Note {content: &msg};
+    println!("{}" ,note.content);
 }
