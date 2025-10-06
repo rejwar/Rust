@@ -1,0 +1,11 @@
+fn main() {
+    let mut  Number: Vec<i32> = Vec::new();
+
+
+    Number.push(10);
+    Number.push(20);
+    Number.push(30);
+    
+
+    println!("{:?}", Number);
+}
