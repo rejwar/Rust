@@ -4,7 +4,6 @@ mod fruit {
     }
 
     pub fn show() {
-        // এখানে self keyword ব্যবহার করে apple function call করুন
         self::apple();
     }
 }
