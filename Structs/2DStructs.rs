@@ -36,3 +36,4 @@ fn main() {
     a.scale(2.0);
     println!("a after scale = ({}, {})", a.x, a.y);
 }
+//
