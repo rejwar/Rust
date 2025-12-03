@@ -5,4 +5,4 @@ let y: Option<i32> = None;
 println!("{}", y.unwrap_or_else(|| {
     println!("Calculating fallback...");
     10
-})); // ✅ 10, সাথে fallback কোড চালাবে
+})); // 
