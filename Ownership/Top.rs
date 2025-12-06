@@ -28,3 +28,6 @@ fn main() {
 
     println!("{} {}", x, y);
 }
+s
+
+fn
