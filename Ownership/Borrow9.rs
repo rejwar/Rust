@@ -7,3 +7,5 @@ fn main() {
     borrows(&s1); // borrow করা হলো
     println!("{}", s1); // ✅ এখনও ব্যবহারযোগ্য
 }
+hgfhgfhgf
+gkhfchgfhfgahgg
