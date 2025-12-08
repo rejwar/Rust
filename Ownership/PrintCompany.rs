@@ -7,5 +7,5 @@ fn main() {
 
     print_company();
 
-    println!("   ")
+    println!("  ")
 }
