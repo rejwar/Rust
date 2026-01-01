@@ -1,0 +1,18 @@
+use std::sync::{Arc, Mutex};
+use std::thread;
+
+fn main() {
+    let lock = Arc::new(Mutex::new(0));
+    let lock_clone = Arc::clone(&lock);
+
+    let _ = thread::spawn(move || {
+        let _data = lock_clone.lock().unwrap();
+        panic!("Panic while holding the lock");
+    })
+    .join();
+
+    match lock.lock() {
+        Ok(_) => println!("Lock acquire "),
+        Err(_) => println!("Error mutex is Poisned"),
+    }
+}
