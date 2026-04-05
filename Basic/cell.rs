@@ -6,3 +6,5 @@ fn main() {
     x.set(10);
     println!("{}", x.get());
 }
+
+
